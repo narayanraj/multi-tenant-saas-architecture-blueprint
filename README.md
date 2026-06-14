@@ -1,15 +1,36 @@
-# multi-tenant-saas-architecture-blueprint
-A Multi-Tenant B2B Project Management SaaS  Features:  
+# Multi-Tenant SaaS Architecture Blueprint
 
-1. Organizations
-2. Users
-3. Projects
-4. Tasks
-5. Comments
-6. Notifications
-7. Billing
-8. Reporting
+Reference architecture for a cloud-native B2B SaaS platform designed for scalability, tenant isolation, governance, and operational resilience.
 
-Think Jira / Asana Lite.
+## Architecture Goals
 
-This is relatable to almost every SaaS founder.
+- Multi-tenant design
+- SaaS scalability
+- Tenant isolation
+- Secure deployment governance
+- Disaster recovery readiness
+- Cost-aware cloud architecture
+
+## Technology Stack
+
+- AWS
+- Kubernetes (EKS)
+- Terraform
+- GitHub Actions
+- ArgoCD
+- PostgreSQL
+- Redis
+- SQS
+- Prometheus
+- Grafana
+
+## Deliverables
+
+- Executive Summary
+- Business Requirements
+- High-Level Architecture
+- Tenant Isolation Strategy
+- Deployment Governance
+- Disaster Recovery
+- Cost Considerations
+- Architecture Decision Records
